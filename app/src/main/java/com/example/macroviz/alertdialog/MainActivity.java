@@ -57,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
                         .setIcon(R.mipmap.pineapple)
 
                         .setSingleChoiceItems(str_list, 0, new DialogInterface.OnClickListener() {
+                                             //第一項參數：陣列（字串）文字
+                                             //  二    ：預設         
                                     @Override
                                     public void onClick(DialogInterface dialogInterface, int i) {
                                         Toast.makeText(MainActivity.this,"您選擇的是:"+str_list[i],Toast.LENGTH_LONG).show();
